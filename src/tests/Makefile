@@ -1,4 +1,4 @@
-JDKPATH = /usr/lib/jvm/java-8-oracle
+JDKPATH = /home/theassembler1/src/jdk-14
 LIBPATH = .:..
 CLASSPATH = $(LIBPATH)
 BINPATH = $(JDKPATH)/bin
@@ -45,6 +45,7 @@ IndexTest:IndexTest.java
 indextest: IndexTest
 	$(JAVA) tests.IndexTest
 
-
+clean:
+	\rm -f *.class *~ \#* core 
 
 

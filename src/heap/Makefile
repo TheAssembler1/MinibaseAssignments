@@ -1,6 +1,4 @@
-JDKPATH = /usr/lib/jvm/java-8-oracle
-LIBPATH = .:..
-JDKPATH = /usr/lib/jvm/java-8-oracle
+JDKPATH = /home/theassembler1/src/jdk-14
 LIBPATH = .:..
 CLASSPATH = $(JDKPATH)/lib/classes.zip:.:..:$(LIBPATH)
 BINPATH = $(JDKPATH)/bin
